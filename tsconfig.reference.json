@@ -6,5 +6,16 @@
     "incremental": true,
     "declarationMap": true,
     "removeComments": false
-  }
+  },
+  "references": [
+    {
+      "path": "../packages/config"
+    },
+    {
+      "path": "../packages/core/core"
+    },
+    {
+      "path": "../packages/logger"
+    }
+  ]
 }

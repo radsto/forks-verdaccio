@@ -6,16 +6,5 @@
     "noImplicitAny": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.test.ts"],
-  "references": [
-    {
-      "path": "../config"
-    },
-    {
-      "path": "../core/core"
-    },
-    {
-      "path": "../logger"
-    }
-  ]
+  "exclude": ["src/**/*.test.ts"]
 }
